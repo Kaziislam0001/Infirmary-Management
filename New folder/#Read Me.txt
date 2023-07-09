@@ -1,5 +1,0 @@
-To Run the program. First Install xampp from https://www.apachefriends.org/download.html. 
-After installing go to any browser and enter localhost. If the instillation was seccessful a "Welcome to xampp" webpage will load.
-Now in the browser put the url localhost/ then add the directory of CreateDB.php file. Now run te file by clicking enter. 
-Now in the browser put the url localhost/ then the directory of LOGIN.php. The login page should load. 
-By default the username is abcd and password is 1234

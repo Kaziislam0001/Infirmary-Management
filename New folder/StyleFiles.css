@@ -1,0 +1,336 @@
+ /* Styling the Navigation Bar */
+ .tabs {
+	  display: inline-block;
+	  background-color: #002233;
+	  padding: 0px 0px;
+	  width: 100%;
+	  border-radius: 60px;
+	  text-align:center;
+	}
+	.tabs a {
+	  color: white;
+	  float: left;
+	  padding: 10px 20px;
+	  text-decoration: none;
+	  border-radius: 20px;
+	}
+	.tabs a.active {
+	  background-color: #00b3b3;
+	  color: white;
+	  border-radius: 30px;
+	  padding: 10px 20px;
+	}
+	.tabs a:hover:not(.active) {
+	  border-radius: 20px;
+	  background-color:#80dfff;
+	  color: black;
+	  border-radius: 50px;
+	  padding: 10px 20px;
+	}
+	.tabs a.Search {
+	  background-color: #ff9900;
+	  color: white;
+	  border-radius: 100px;
+	  padding: 10px 20px;
+	}
+	.tabs a.Search:hover {
+	  background-color: #cc7a00;
+	  color: white;
+	  border-radius: 100px;
+	  padding: 10px 20px;
+	}
+
+	.tabs a.Home {
+	  background-color:#ff3300;
+	  color: white;
+	  border-radius: 100px;
+	  padding: 10px 20px;
+	}
+
+    .tabs a.Home:hover {
+	  background-color:#cc0000;
+	  color: white;
+	  border-radius: 100px;
+	  padding: 10px 20px;
+	}
+
+	.tabs a.logout{
+		background-color: #ff4d4d;
+		color: white;
+		border-radius: 100px;
+	}
+
+	.tabs a.logout:hover{
+		background-color: #e60000;
+		color: white;
+		border-radius: 100px;
+	}
+
+/*End of Stying navigation bar*/
+
+
+/*Styling button */
+
+	.btnsearch{
+
+		padding: 10px 25px;
+		background: #004d80;
+		border: 0px;
+		color: white; 
+		border-radius: 30px;
+        border-top: 2px solid  #004d80;
+        border-bottom: 3px solid  #004d80;
+        box-shadow: -30px 0px 0px 0px #004d80,5px 0px 0px 0px #004d80;
+	}
+
+	.btnsearch:hover{
+		background: white;
+		color: #004d80; 
+	}
+
+	.btnsearch:focus{
+		outline: 0px;
+	}
+
+
+	.Submit{
+	    align-content: center;
+	    height: 40px;
+	    width: 300px;
+	    color: white;
+	    border-radius: 0px;
+	    font-size: 20px;
+	    border: 0;
+	    background: #004d80;
+	  }
+
+
+	 .btnDelete{
+	 	border-radius: 50px;
+	 	color: white;
+	 		border: 0;
+	 	background: red;
+	    font-size:25px;
+	 	padding: 10px 10px;
+	 }
+
+	 .btnDelete:hover{
+	 	border-radius: 50px;
+	    color: red;
+	 	background: white;
+	 	border: 0;
+	 	font-size:25px;
+	 	padding: 10px 10px;
+	 }
+
+	 .btnEdit{
+	 	border-radius: 50px;
+	 	color: white;
+	 	background: #ffcc00;
+	 	border: 0;
+	 	 font-size:25px;
+	 	padding: 10px 10px;
+	}
+	 .btnEdit:hover{
+	 	border-radius: 50px;
+	    color:#ffcc00;
+	 	background: white;
+	 	border: 0;
+	 	font-size:25px;
+	 	padding: 10px 10px;
+	 }
+	 
+	.btnPdf{
+	 	border-radius: 50px;
+	 	color: white;
+	    border: 0;
+	 	background: red;
+	    font-size:30px;
+	 	padding: 20px 20px;
+	 }
+
+	 .btnPdf:hover{
+	 	border-radius: 50px;
+	    color: red;
+	 	background: white;
+	 	border: 0;
+	 	font-size:30px;
+	 	padding: 20px 20px;
+	 }
+
+/*End of Styling button */
+
+    .searchName{
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+        border: 1px solid black;
+		padding: 10px 100px;
+		border-right: 0px;
+		font-size: 20px;
+	}
+
+	.searchName:hover{
+      background: #eee;
+	}
+
+
+	.searchName:focus{
+		outline: 0px;
+	}
+
+
+	.formtable {
+    height: 500px;
+    width: 400px;
+    background: white;
+    color: #404040;
+    outline: 1px solid lightgrey;
+
+   }
+
+  .input{
+  	 padding: 5px 5px;
+     height: 30px;
+     font-size: 15px;
+     border: 0;
+     outline: 1px solid lightgrey;
+       
+  }
+
+  .input:hover{
+     outline: 1px solid #004d80;
+
+     
+  }
+  .input:focus{
+    background: white;
+    font-size: 15px;
+    padding: 5px 5px;
+    outline: 1px solid #004d80;
+    background: white;
+    border-bottom: 1px solid #004d80;
+  }
+
+  .inputNumber{
+  	 padding: 5px 5px;
+     height: 30px;
+     width: 60px;
+     align-items: center;
+     text-align: left;
+     font-size: 15px;
+     border: 0;
+     outline: 1px solid lightgrey;
+
+  }
+
+  .inputNumber:hover{
+    font-size: 15px;
+    outline: 1px solid #004d80; 
+  }
+
+  .inputNumber:focus{
+   border-bottom: 1px solid #004d80;
+  }
+
+  
+  .inputDate{
+     height: 20px;
+     width: 150px;
+     padding: 10px 20px;
+     font-size: 15px;
+     border: 0;
+     outline: 1px solid lightgrey;
+       
+  }
+
+   .inputDate:hover{
+     outline: 1px solid #004d80;
+
+     
+  }
+   .inputDate:focus{
+     border-bottom: 1px solid #004d80;
+    }
+  
+
+
+    .Table{
+    	border-spacing: 0px 10px;
+    	font-size: 22px;
+    	width:1300px;
+
+    }
+
+/*    .roundLeft{
+		text-align: center;
+		border-left: 2px;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+	}
+
+	.roundRight{
+		text-align: center;
+		border-left: 2px;
+		border-bottom-right-radius: 30px;
+		border-top-right-radius: 30px;
+	}*/
+	.A{
+		background: #8c8c8c;
+		color: white;
+		text-align: center;
+		 
+	}
+	.B{
+		background: rgb(65,143,126);
+		color: white;
+		text-align: center;
+		 
+	}
+	.C{
+		background: #72c0af;
+		color: white;
+		text-align: center;
+		 
+	}
+	.D{
+		background: rgb(15,74,96);
+		color: white;
+		text-align: center;
+		 
+	}
+
+	.row:hover{
+		background: #333333;
+		color: white;
+	}
+
+ .th{
+ 	border-bottom: 5px solid black;
+    border-top: 5px solid black;
+ }
+  
+  .ShowTable{
+  	 align-content: center;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 0px;
+    font-size: 15px;
+    border: 0;
+    background: #004d80;
+  }
+  .ShowTable:hover{
+  	  	background: #003d66;
+  }
+
+  .icon{
+	font-size: 30px;
+	color: #004d80;
+}	
+
+.formHeading{
+	font-size: 30px;
+	color: #004d80;
+	border-bottom: 3px solid #004d80;
+}
+
